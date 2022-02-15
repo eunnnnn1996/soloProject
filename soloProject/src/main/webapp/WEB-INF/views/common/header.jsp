@@ -2,30 +2,36 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!-- header 시작 -->
-<h1 class="align-center"><a href="${pageContext.request.contextPath}/main/main.do">회원제 게시판</a></h1>
-<div class="align-right">
-	<c:if test="${!empty user_num && !empty user_photo }">
-		<img src="${pageContext.request.contextPath}/upload/${user_photo}" width="25" height="25" class="my-photo">
-	</c:if>
-	<c:if test="${!empty user_num && empty user_photo}">
-		<img src="${pageContext.request.contextPath}/images/face.png" width="25" height="25" class="my-photo">
-	</c:if>
-	<a href="${pageContext.request.contextPath}/board/list.do">게시판</a>
-	<c:if test="${!empty user_num}">
-		[<span>${user_id}</span>]
-		<a href="${pageContext.request.contextPath}/member/logout.do">로그아웃</a>
-	</c:if>
-	<c:if test="${empty user_num}">
-		<a href="${pageContext.request.contextPath}/member/registerUserForm.do">회원가입</a>
-		<a href="${pageContext.request.contextPath}/member/loginForm.do">로그인</a>
-	</c:if>
-	<c:if test="${!empty user_num && user_auth == 2}">
-		<a href="${pageContext.request.contextPath}/member/myPage.do">MY페이지</a>
-	</c:if>
-	<c:if test="${!empty user_num && user_auth == 3}">
-		<a href="${pageContext.request.contextPath}/member/memberList.do">회원관리</a>
-	</c:if>
-</div>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial_scale=1.0">
+<title>####</title>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/first.css">
+</head>
+<body>
+	<header>
+		<h1><a href="#"><img src="${pageContext.request.contextPath}/image/main3.png"/></a></h1>
+		<nav class="lnb">
+			<ul>
+				<li><a href="#">신상</a></li>
+				<li><a href="#">랭킹</a></li>
+				<li><a href="#">코디</a></li>
+				<li><a href="#">세일</a></li>
+				<li><a href="#">이벤트</a></li>
+				<li><a href="#">전체상품</a></li>
+			</ul>
+		</nav>
+		<nav class="spot">
+			<ul>
+				<li><a href="#">계정</a></li>
+				<li><a href="#">메뉴</a></li>	
+			</ul>
+		</nav>
+	</header>
+</body>
+</html>
 <!-- header 끝 -->
 
 

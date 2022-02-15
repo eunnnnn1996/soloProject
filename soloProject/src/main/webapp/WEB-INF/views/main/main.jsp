@@ -5,15 +5,18 @@
 <head>
 <meta charset="UTF-8">
 <title>메인</title>
-<link rel="stylesheet" href="${pageContext.request.contextPath}/css/layout.css">
 </head>
 <body>
-<div class="page-main">
+	<div class="F_area">
     <jsp:include page="/WEB-INF/views/common/header.jsp"/>
-	<div>
-		<h3>메인 화면</h3>
-		프로젝트 시작
-	</div>
-</div>
+	    <div class="F_item">
+	    	<span class="F_name">SWEATER</span></br>
+	    	<span class="F_link"><a href="#">비슷한 제품</a></span>
+	    </div>
+	    <div class="firstBtn">
+	    	<input class="Btn1" type="button" value="주문하기">
+	    	<input class="Btn2" type="button" value="자세히 보기">
+	    </div>
+    </div>
 </body>
 </html>
