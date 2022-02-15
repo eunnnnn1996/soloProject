@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header>
-		<h1><a href="#"><img src="${pageContext.request.contextPath}/image/main3.png"/></a></h1>
+		<h1><a href="#"><img src="${pageContext.request.contextPath}/image/main3.png" style="width:200px;padding-top:5px;"/></a></h1>
 		<nav class="lnb">
 			<ul>
 				<li><a href="#">신상</a></li>
@@ -25,7 +25,7 @@
 		</nav>
 		<nav class="spot">
 			<ul>
-				<li><a href="#">계정</a></li>
+				<li><a href="${pageContext.request.contextPath}/member/loginForm.do">계정</a></li>
 				<li><a href="#">메뉴</a></li>	
 			</ul>
 		</nav>

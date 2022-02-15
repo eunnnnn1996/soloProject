@@ -1,9 +1,10 @@
+*{margin:0;padding:0;}
 body { font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;}
 header{text-align:center;}
 a:link{text-decoration:none;color:black;}
 a:visited{text-decoration:none;color:black;}
 a:active{text-decoration:none;color:black;}
-a:hover{text-decoration:none;color:black;}
+a:hover{color:#dfdfdf;border-radius:15px;}
 header h1{position:absolute;left:50px;top:0;}
 header .spot {position:absolute;right:50px;top:0;}
 header lnb li {display:inline-block;margin-left:5px;}
@@ -13,16 +14,37 @@ header .spot li {display:inline-block; margin-right:2em;}
 /* 헤더 css 끝 */
 
 .F_area{background-image: url('../image/one.jpg'); height:700px}
+.S_area{background-image: url('../image/two.jpg'); height:800px;}
 .F_item{text-align: center; padding-top:30px}
+.S_item{text-align: center;}
 .F_name{font-size:40px;}
 .F_link a{text-decoration: underline; text-underline-position:under;
 											color:#646464;font-size:12px;}
+.S_name{font-size:40px;}
+.S_link a{text-decoration: underline; text-underline-position:under;
+											color:#000;font-size:12px;}
 .firstBtn{text-align: center; padding-top:350px;}
 .Btn1{width:250px;height:35px;border-radius: 12px; border: none; margin-right:8px; 
 													color:#ebebe9; background-color:#5c5c5c;}
 .Btn2{width:250px;height:35px;border-radius: 12px; border: none; margin-left:8px;
-												    color:#000; background-color:#ebebe9;}											
-											
+												    color:#000; background-color:#ebebe9;}
+.secondBtn{text-align: center; padding-top:330px; padding-bottom:230px}
+/* 메인 css 끝*/
+
+.page_main{width:300px; margin:0 auto; padding-top:80px;}
+.email_login{width:300px; height:40px; border-radius:30px; border: none; background-color:#f5f5f5;}
+.passwd_login{width:300px; height:40px; border-radius:30px; border: none; background-color:#f5f5f5;}
+.login_btn{width:300px; height:40px; border-radius:30px; border: none; 
+									color:#fff; background-color:#3d69e1; margin:15px 0;}
+.sign_btn{width:300px; height:40px; border-radius:30px; border-style:medium; border-color:black;
+									color:black; background-color:#fff; margin:15px 0;}																					    											
+.login_span {padding-left:27px;}	
+.forget_span{text-align:center;}
+.forget_span a{font-size:12px; text-decoration: underline;}		
+.hr-sect {display: flex;flex-basis: 100%;align-items: center;color:black;
+  															font-size: 14px;margin: 8px 0px;}
+.hr-sect::before,.hr-sect::after {content: "";flex-grow: 1;background: rgba(0, 0, 0, 0.35);
+								height: 1px;font-size: 0px;line-height: 0px;margin: 0px 16px;}								
 											
 											
 											
