@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header>
-		<h1><a href="#"><img src="${pageContext.request.contextPath}/image/main3.png" style="width:200px;padding-top:5px;"/></a></h1>
+		<h1><a href="${pageContext.request.contextPath}/main/main.do"><img src="${pageContext.request.contextPath}/image/main3.png" style="width:200px;padding-top:5px;"/></a></h1>
 		<nav class="lnb">
 			<ul>
 				<li><a href="#">신상</a></li>
