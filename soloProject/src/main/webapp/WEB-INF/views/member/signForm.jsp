@@ -28,6 +28,7 @@
 	<div class="hr-sect">또는</div>
 	<div style="padding-top:20px">
 	<button class="sign_btn" onclick="location.href='${pageContext.request.contextPath}/member/loginForm.do'">로그인</button>
+	<button class="sign_btn" onclick="location.href='${pageContext.request.contextPath}/member/userUpdateForm.do'">임시버튼 내정보수정</button>
 	</div>
 	</div>
 </div>

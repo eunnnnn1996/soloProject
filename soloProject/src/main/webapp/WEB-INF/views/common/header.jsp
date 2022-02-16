@@ -20,7 +20,7 @@
 				<li><a href="#">코디</a></li>
 				<li><a href="#">세일</a></li>
 				<li><a href="#">이벤트</a></li>
-				<li><a href="#">전체상품</a></li>
+				<li><a href="${pageContext.request.contextPath}/item/itemAllForm.do">전체상품</a></li>
 			</ul>
 		</nav>
 		<nav class="spot">
